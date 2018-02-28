@@ -1,0 +1,340 @@
+body {
+    background-color: rgb(53, 50, 50);
+    color: rgb(216, 205, 205);
+    font-family: "georgia";
+    font-size: 16px;
+    overflow: auto;
+}
+
+.positionbox{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+.title {
+    padding-top: 20px;
+    text-align: center;
+    height: 90px;
+    width: 200px;
+    background-color: rgb(27, 94, 49);
+    border-style: solid;
+    border-width: 5px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-color: rgb(136, 136, 136);
+    position: relative;
+    left: 125px;
+    top: -10px;
+}    
+
+.navigation {
+    float: right;
+    background-color: rgb(27, 94, 49);
+    height: 100px;
+    width: 270px;
+    border-style: solid;
+    border-width: 5px;
+    border-top-width: 0px;
+    border-bottom-width: 5px;
+    border-right-width: 5px;
+    border-left-width: 5px;
+    border-left-color: rgb(136, 136, 136);
+    border-bottom-color: rgb(136, 136, 136);
+    border-right-color: rgb(136, 136, 136);
+    position: relative;
+    top: -110px;
+    left: -42px;
+    z-index: 1;
+   
+}
+
+.banner {
+    width: 100%;
+    background-color: rgb(97, 97, 97);
+    height: 100px;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-left-width: 0px;
+    border-bottom-color: rgb(136, 136, 136);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    
+}
+
+
+.profilepicture {
+    float: left;
+    height: 250px;
+    margin-right: 10px;
+    border-style: solid;
+    border-color: rgb(137, 137, 137);
+}
+
+.abouttitle {
+    background-color: rgb(97, 97, 97);
+    width: 610px;
+    height: 442px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(136, 136, 136);
+    position: absolute;
+    float: left;
+    top: 160px;
+    left: 130px;
+    padding: 15px;
+    
+}
+
+.contactform {
+    background-color: rgb(97, 97, 97);
+    width: 610px;
+    height: 600px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(136, 136, 136);
+    position: absolute;
+    float: left;
+    top: 160px;
+    left: 130px;
+    padding: 15px;
+}
+
+
+
+.connect {
+    background-color: rgb(97, 97, 97);
+    width: 225px;
+    height: 150px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(136, 136, 136);
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    position: absolute;
+    left: 820px;
+    top: 160px;
+}
+
+
+.connecticon {
+    padding-right: 10px;
+
+}
+
+.portfoliobox {
+    background-color: rgb(97, 97, 97);
+    width: 610px;
+    height: 690px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(136, 136, 136);
+    overflow: auto;
+    position: absolute;
+    float: left;
+    top: 160px;
+    left: 130px;
+    padding: 15px;
+    
+}
+
+.card1 {
+    width: 240px;
+    position: absolute;
+    left: 45px;
+}
+
+.card2 {
+    width: 240px;
+    position: absolute;
+    left: 280px;
+    top: 0px;
+}
+
+.card3 {
+    width: 240px;
+    position: absolute;
+    left: -280px;
+    top: 200px;
+}
+
+.card4 {
+    width: 240px;
+    position: absolute;
+    left: 280px;
+    top: 0px;
+}
+
+.card5 {
+    width: 240px;
+    position: absolute;
+    left: -280px;
+    top: 200px;
+}
+
+img.cardimage {
+    width: 240px;
+}
+
+.cardtext {
+    font-size: 18px;
+    font-weight: normal;
+    width: 240px;
+    background-color:  rgb(27, 94, 49);
+    height: 50px;
+    padding-bottom: 8px;
+    text-align: center;
+    position: relative;
+    bottom: 80px;
+}
+
+.cardtext:hover {
+    background-color: black;
+}
+
+/* a.cardtext:visited {
+    color: white;
+} */
+
+.footer {
+    background-color: rgb(27, 94, 49);
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    border-top: solid;
+    border-top-width: 5px;
+    border-top-color: rgb(143, 143, 143);
+    position: absolute;
+    bottom: 0px;
+
+}
+
+
+.navlink {
+    display: inline;
+    color:  rgb(160, 158, 158);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+    border-style: solid;
+    border-right-color:  rgb(160, 158, 158);
+    border-right-width: 2px;
+    border-left-width: 0px;
+    border-top-width:0px;
+    border-bottom-width: 0px
+}
+
+.endnavlink {
+     border-right-width: 0px;
+}
+  
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+li {
+    display: inline;
+    
+}
+
+
+
+.backgroundphoto {
+    z-index: -2;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+h2 {
+    font-weight: initial;
+}
+
+/* active elements */
+
+a:link {
+    text-decoration: none;
+    color: rgb(160, 158, 158);
+}
+
+a.navlink:visited {
+    text-decoration: none;
+    color: rgb(160, 158, 158);
+}
+
+a.navlink:hover {
+    text-decoration: none;
+    color: white;
+}
+
+a.bodylink:visited {
+    text-decoration: none;
+    color: rgb(160, 158, 158);
+}
+
+a.bodylinkk:hover {
+    text-decoration: none;
+    color: white;
+}
+
+a.demolink:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a.demolink:link {
+    text-decoration: none;
+    color: white;
+}
+
+a.demolink:hover {
+    text-decoration: none;
+    color: rgb(160, 158, 158);
+}
+
+
+
+
+input[type=submit] {
+        background-color:  rgb(27, 94, 49);
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+
+}
+
+input[type=submit]:hover {
+    background-color:  black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    }
